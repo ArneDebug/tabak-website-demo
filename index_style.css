@@ -29,6 +29,10 @@ body {
   background: linear-gradient(to bottom, #0d0d0d, #121212);
 }
 
+.hero p {
+max-width: 500px;
+}
+
 .hero-content {
   max-width: 720px;
 }
@@ -136,6 +140,7 @@ body {
   flex-direction: column;
   gap: 24px;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .review {
@@ -173,6 +178,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .cta h2 {
